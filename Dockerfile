@@ -6,7 +6,7 @@ MAINTAINER "Rommel Almeida Pinto <rpinto@redhat.com>"
 #RUN echo "deb http://ftp.us.debian.org/debian jessie main contrib" >> /etc/apt/sources.list
 #RUN apt-get update && apt-get install -y ttf-mscorefonts-installer
 
-
+COPY ./index.html $CATALINA_HOME/webapps/ROOT/index.html
 #ENV JAVA_OPTS "-server -Xms256M -Xmx3072M -XX:MaxPermSize=256M -Duser.country=BR -Duser.language=pt -Duser.Timezone=America/Fortaleza"
 
 
