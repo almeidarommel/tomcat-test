@@ -1,5 +1,5 @@
 FROM tomcat:7.0.94-jdk8-openjdk-slim
-MAINTAINER "Rommel Almeida Pinto <rpinto@redhat.com>"
+MAINTAINER "Rommel Almeida Pinto <almeida.rommel@gmail.com>"
 
 #ENV TZ=America/Fortaleza
 #RUN echo "America/Fortaleza" > /etc/timezone
